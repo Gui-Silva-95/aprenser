@@ -1,0 +1,240 @@
+:root{
+    --primary-color: #FED001;
+}
+
+html, body{
+    /* font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; */
+    font: 400 62.5% 'Inter', sans-serif;
+
+}
+
+p,
+a{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+nav a{
+    color: inherit
+}
+
+
+
+.header_content h1{
+    font-size: 5rem;
+    margin-bottom: 6rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+    color: inherit
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.wrapperContainer{
+    padding: 0.1rem;
+}
+
+.wrapperContainer-dark{
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.wrapperContainer-light{
+    background-color: #eaeaea;
+
+}
+
+.wrapperContainer-blue{
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.wrapperContainer-fixed{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.wrapperContainer-padded {
+    padding-top: 7rem;
+}
+
+.container {
+    max-width: 1200px; /* ou qualquer largura desejada */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.navegation {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navegation a {
+    display: block;
+    padding: 0.75em 1.15em;
+  }
+
+.navegation ul{
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+}
+
+.navegation a:hover{
+    background-color: black;
+}
+
+.wrapperContainer-hero{
+    background-image: linear-gradient(transparent, rgb(249, 249, 77));
+}
+
+.heroBanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+    
+}
+
+
+.mulher_flor {
+    height: auto;
+    width: 100%;
+    max-width: 550px; /* ou qualquer largura desejada */
+    object-fit: cover; /* ou experimente com 'contain' ou 'fill' */
+  }
+
+.section_title{
+    margin: 0;
+    padding: 7rem 0;
+    text-align: center;
+}
+
+.cursos {
+    text-align: center;
+}
+
+.cursosContainer {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.curso_card {
+    flex: 1 1 300px; /* ou qualquer largura desejada */
+    max-width: 400px; /* ou qualquer largura desejada */
+    margin-bottom: 2rem;
+    border-radius: 8rem 8rem .8rem 0.8rem;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+.curso_card img{
+    display: block;
+    width: 100%;
+}
+
+.curso_card h3{
+    font-size: 2.4rem;
+}
+
+.curso_card p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.cursos_card_content {
+    padding: 1rem 1.25rem;
+
+}
+
+.section_btn{
+    margin: 7rem;
+}
+
+.nossaescola{
+    display: flex;
+    gap: 6rem;
+    padding-top: 6rem;
+}
+
+.nossaescola img {
+    height: auto;
+    width: 100%;
+    max-width: 600px; /* ou qualquer largura desejada */
+  }
+
+.escola_title{
+    font-size: 3.2rem;
+    margin-top: 0;
+}
+
+.escola_content p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    
+}
+
+address{
+    text-align: right;
+    font: normal 400 1.3rem "Inter", sans-serif;
+    padding: 3rem 0;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 400px; /* ou qualquer altura desejada */
+  }
+
+.contato h2{
+    text-align: center;
+    margin-top: 0;
+    padding: 7rem 0;
+
+}
+
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+
+}
+
+.footer a {
+    color: inherit;
+}
+
+
